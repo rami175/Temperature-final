@@ -4,6 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Temperature coversion</title>
+		<link rel="stylesheet" href="styles.css" />
 	</head>
-	<body></body>
+	<body>
+		<div class="container">
+			<div class="emoji">
+				<h2 id="emojiText">
+					Click here
+					<button id="convert-btn" onclick="convertTemperatureRange()">
+						Convert
+					</button>
+					<br />
+
+					to Convert a range of values between Celsius and Fahrenheit
+				</h2>
+				<div class="results emoji" id="resultArea"></div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>

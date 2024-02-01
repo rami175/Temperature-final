@@ -1,0 +1,58 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	margin: 10px;
+	background-color: rgb(69, 160, 73);
+	color: white;
+	height: 4rem;
+	width: 8rem;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+button:hover {
+	background-color: rgb(122, 166, 55);
+}
+
+.container {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.emoji {
+	width: 20rem;
+	height: 30rem;
+	background-color: rgb(187, 228, 245);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem;
+	border-radius: 5px;
+	border: solid 1px black;
+}
+#emojiText {
+	text-align: center;
+}
+.results {
+	width: 80%;
+	margin-bottom: 20px;
+	background-color: lightgray;
+	overflow: auto;
+	display: f;
+}
+.results li {
+	margin-bottom: 2rem;
+	font-weight: bold;
+}
+.results h2 {
+	color: red;
+	text-align: center;
+}
